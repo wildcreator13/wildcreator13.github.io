@@ -1,0 +1,68 @@
+.intro{
+	height: 100vh;
+	background-image: url("../../img/intro/Group 56.jpg");
+	background-position: left;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.intro__items{
+	padding-top: 185px;
+}
+
+.intro__title{
+	h1{
+	width: 500px;
+	font-weight: bold;
+	font-size: 40px;
+	line-height: 50px;
+	margin-bottom: 25px;
+	}
+}
+
+.intro__subtitle{
+	p{
+	font-size: 20px;
+	}
+margin-bottom: 50px;
+}
+
+
+
+.intro__btns{
+	a{
+	font-weight: 500;
+	font-size: 12px;
+	padding-top: 17px;
+	
+	}
+
+	& a:nth-child(1){
+		color: #fff;
+	}
+	& a:nth-child(2){
+		color: $maincolor;
+	}
+}
+
+
+
+
+.btn__buy{
+	margin-right: 10px;
+	display: inline-block;
+	width: 187px;
+	height: 45px;
+	text-align: center;
+	background: $maincolor;
+	border-radius: 30px;
+}
+
+.btn__more{
+	display: inline-block;
+	width: 187px;
+	height: 45px;
+	text-align: center;
+	border: 1px solid $maincolor;
+	border-radius: 30px;
+}

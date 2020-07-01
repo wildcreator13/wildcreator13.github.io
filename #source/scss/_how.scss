@@ -1,0 +1,43 @@
+.how{
+	height: 243px;
+	margin-bottom: 160px;
+	position: relative;
+}
+.how__header{
+	margin-bottom: 70px;
+	text-align: center;
+	h3{
+		font-weight: 700;
+		font-size: 30px;
+		line-height: 140%;
+	}
+}
+
+.how__items{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+
+.how__icon{
+	margin-bottom: 40px;
+}
+
+.how__text{
+	p{
+		font-size: 16px;
+		line-height: 140%;
+	}
+}
+
+.step-first{
+	position: absolute;
+	top: 60%;
+	left: 24%;
+}
+.step-second{
+	position: absolute;
+	top: 60%;
+	left: 53%;
+}

@@ -1,0 +1,46 @@
+
+.second{
+	margin-bottom: 160px;
+}
+.box__bg{
+	display: flex;
+}
+
+.bg__blue{
+	position: relative;
+	width: 100%;
+	background-color: $blue;
+	display: flex;
+	flex-direction:column;
+	justify-content: center;
+	&>div{
+		margin-bottom: 50px;
+	}
+}
+
+
+.text__one{
+	margin-left: 60px;
+	h3{
+	color: #fff;
+	font-weight: 700;
+	font-size: 30px;
+	line-height: 140%;
+	}
+	p{
+	margin-top: 10px ;
+	width: 550px;
+	font-family: Roboto;
+	color: #fff;
+	font-size: 20px;
+	line-height: 140%;
+	}
+}
+
+.steps{
+	position: absolute;
+	right: 0;
+	bottom: -60px;
+}
+
+

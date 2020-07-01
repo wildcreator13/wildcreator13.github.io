@@ -1,0 +1,27 @@
+.header{
+	padding-top: 30px;
+	
+}
+
+.header__items{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.header__number{
+	p{
+	color: #000;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 19px;
+	margin-bottom: 5px;
+	}
+	span{
+	color: #000;
+	font-weight: 300;
+	font-size: 12px;
+	line-height: 14px;
+	}
+}
+

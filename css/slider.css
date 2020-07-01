@@ -1,0 +1,37 @@
+.slider{
+	margin-right: 45px;
+	width: 400px;
+	height: 402px;
+	display: flex;
+	background-image: url("../../img/slider/Group 47.png");
+	background-position: 0 center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+}
+.slider input{
+	-webkit-appearance: none;
+	width: 100%;
+	background: none;
+	z-index: 10;
+}
+
+.slider input::-webkit-slider-thumb{
+	-webkit-appearance: none;
+	width: 3px;
+	height: 502px;
+	background-color: #ff7c00;
+	border-radius: 2px;
+	cursor: pointer;
+}
+
+.original-image{
+	position: absolute;
+	left: 0;
+	width: 20%;
+	height: 402px;
+	background-image: url("../img/slider/1-salat-s-kuracim-masom-v2-1024x1024.png");
+	background-position: 0 center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
