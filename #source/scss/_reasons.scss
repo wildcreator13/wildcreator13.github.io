@@ -2,7 +2,7 @@
 	height: 605px;
 	width: 100%;
 	position: relative;
-	margin-bottom: 90px;
+	margin-bottom: 180px;
 }
 
 .reasons__items{
@@ -16,10 +16,13 @@
 .reasons__header{
 	h3{
 		text-align: center;
-		font-weight: 700;
-		font-size: 30px;
-		line-height: 130%;
-		margin-bottom: 50px;
+		font-family: FuturaDemiC;
+		font-style: normal;
+		font-weight: 600;
+		font-size: 35px;
+		line-height: 44px;
+		color: #252525;
+		margin-bottom: 40px;
 	}
 }
 .item-left{
@@ -34,19 +37,25 @@
 .title__left{
 
 	p{
-		font-weight: 700;
-		font-size: 16px;
+		color: #252525;
+		font-family: 'FuturaDemiC';
+		font-style: normal;
+		font-weight: 600;
+		font-size: 18px;
 		line-height: 140%;
-		margin-bottom: 5px;
+		margin-bottom: 3px;
 	}
 }
 
 .text__left{
 
 	span{
-		font-weight: 300;
-		font-size: 14px;
+		font-family: 'FuturaBookC';
+		font-style: normal;
+		font-weight: normal;
+		font-size: 16px;
 		line-height: 140%;
+		color: #252525;
 	}
 }
 

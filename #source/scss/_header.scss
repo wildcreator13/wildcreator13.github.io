@@ -1,27 +1,32 @@
 .header{
-	padding-top: 30px;
+	padding-top: 25px;
+	margin-bottom: 180px;
+}
+
+.items__header{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.haeder__contacts{
+.number{
+	font-family: 'FuturaDemiC';
+	font-size: 16px;
+	line-height: 19px;
+	letter-spacing: 0.05em;
+	margin-bottom: 3px;
+		a{
+		color: #000;
+		}
+	}
 	
 }
 
-.header__items{
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
-}
+.callme{
+		font-family: 'FuturaBookC';
+		font-size: 14px;
+		line-height: 16px;
+	}
 
-.header__number{
-	p{
-	color: #000;
-	font-weight: 500;
-	font-size: 16px;
-	line-height: 19px;
-	margin-bottom: 5px;
-	}
-	span{
-	color: #000;
-	font-weight: 300;
-	font-size: 12px;
-	line-height: 14px;
-	}
-}
 

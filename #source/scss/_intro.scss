@@ -1,68 +1,70 @@
 .intro{
+	margin-bottom: 130px;
+}
+
+.box__intro{
 	height: 100vh;
-	background-image: url("../../img/intro/Group 56.jpg");
-	background-position: left;
+	background-image: url('../../img/intro/bg2.svg');
+	background-size: contain;
+	background-position: right;
 	background-repeat: no-repeat;
-	background-size: cover;
 }
 
 .intro__items{
-	padding-top: 185px;
+	width: 600px;
 }
 
-.intro__title{
+.title__intro{
 	h1{
-	width: 500px;
-	font-weight: bold;
-	font-size: 40px;
-	line-height: 50px;
-	margin-bottom: 25px;
+		font-family: FuturaDemiC;
+		font-style: normal;
+		font-weight: 600;
+		font-size: 40px;
+		line-height: 44px;
+		
 	}
 }
 
-.intro__subtitle{
+
+
+.subtitle__items{
 	p{
-	font-size: 20px;
-	}
-margin-bottom: 50px;
-}
-
-
-
-.intro__btns{
-	a{
-	font-weight: 500;
-	font-size: 12px;
-	padding-top: 17px;
-	
-	}
-
-	& a:nth-child(1){
-		color: #fff;
-	}
-	& a:nth-child(2){
-		color: $maincolor;
+		font-family: FuturaBookC;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 16px;
+		line-height: 55px;
+		margin-bottom: 40px;
 	}
 }
-
-
-
 
 .btn__buy{
-	margin-right: 10px;
+	color: #fff;
+	font-family: 'FuturaDemiC';
+	font-style: normal;
+	font-weight: 600;
+	font-size: 14px;
+	text-align: center;
+	padding-top: 15px;
 	display: inline-block;
 	width: 187px;
 	height: 45px;
-	text-align: center;
-	background: $maincolor;
-	border-radius: 30px;
+	background: #E83A4A;
+	border-radius: 5px;
+	margin-right: 8px;
 }
 
 .btn__more{
+	color: #E83A4A;
+	font-family: 'FuturaDemiC';
+	font-style: normal;
+	font-weight: 600;
+	font-size: 14px;
+	text-align: center;
+	padding-top: 15px;
 	display: inline-block;
 	width: 187px;
 	height: 45px;
-	text-align: center;
-	border: 1px solid $maincolor;
-	border-radius: 30px;
+	border: 1px solid #E83A4A;
+	border-radius: 5px;
 }
