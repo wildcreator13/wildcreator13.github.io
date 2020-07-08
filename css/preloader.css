@@ -1,101 +1,46 @@
-.preloader
-{
-    position: fixed;
-    top: 0;
-    left: 0;
-    height: 100%;
-    width: 100%;
-    z-index: 9999;
+.preloader{
+	position: fixed;
+	top: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	height: 100vh;
+	background-color: #000;
+	z-index: 10;
 }
-.item-1
-{
-    position: relative;
-    height: 100%;
-    width: 50%;
-    background-color: #111;
-    transition: 1.5s ease;
-    z-index: 9998;
+
+.preloader:before{
+	content: "Loading";
+	position: absolute;
+	font-size: 11em;
+	font-weight: 900;
+	text-transform: uppercase;
+	color: rgba(255,255,255, 0.09);
 }
-.right-side
-{
-    position: absolute;
-    right: 0;
-    top: 0;
+
+.counter{
+	position: relative;
+	color: #fff;
+	font-size: 16em;
+	font-weight: 700;
+	z-index: 1;
 }
-.item-1 span
-{
-    color: silver;
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
+
+.counter:after{
+	content: "%";
+	font-size: 0.5em;
+
 }
-.left-side span
-{
-    right: 0;
+
+.hide{
+	opacity: 0;
+	transition: 1s;
+	pointer-events: none;
 }
-.right-side span
-{
-    left: 0;
-}
-.dot
-{
-    height: 7px;
-    width: 7px;
-    border-radius: 100%;
-    position: absolute;
-    top: 53%;
-}
-@keyframes dot-light
-{
-    100%
-    {
-        background-color: #E83A4A;
-        box-shadow: 0 0 10px #E83A4A, 0 0 10px #E83A4A;
-    }
-}
-.dot-1
-{
-    right: 20px;
-}
-.dot-2
-{
-    right: 5px;
-}
-.dot-3
-{
-    left: 5px;
-}
-.dot-4
-{
-    left: 20px;
-}
-.item-2
-{
-    position: absolute;
-    top: 0;
-    height: 100%;
-    width: 100%;
-    background-color: #222;
-    z-index: 9997;
-    transition: 1s;
-}
-.item-3
-{
-    position: absolute;
-    top: 0;
-    height: 100%;
-    width: 100%;
-    background-color: #E83A4A;
-    z-index: 9996;
-    transition: 1s;
-}
-.item-4
-{
-    position: absolute;
-    top: 0;
-    height: 100%;
-    width: 100%;
-    background-color: #444;
-    z-index: 9995;
-    transition: 1s;
+
+.preloader.active{
+	transform: translateY(-100vh);
+	transition: ease-in-out 2s;
+	transition-delay: 1s;
 }
